@@ -11,6 +11,7 @@ body{
   transition: all .4s;
   &:hover{
     border: 3px solid rgb(76, 179, 214);
+    transform: scale(1.1);
   }
   &--active{
     border: 3px solid rgb(76, 179, 214);
@@ -24,6 +25,7 @@ body{
   transition: all .4s;
   &:hover{
     border: 3px solid rgb(76, 179, 214);
+    transform: scale(1.1);
   }
   &--active{
     border: 3px solid rgb(76, 179, 214);
@@ -43,5 +45,12 @@ body{
     padding: .5rem 4rem;
     background-color: rgb(46, 132, 160);
   }
+}
+//helper class
+
+
+
+.round-m{
+  border-radius: 3rem;
 }
 

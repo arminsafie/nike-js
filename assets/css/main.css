@@ -12,6 +12,7 @@ body {
 }
 .white-btn:hover {
   border: 3px solid rgb(76, 179, 214);
+  transform: scale(1.1);
 }
 .white-btn--active {
   border: 3px solid rgb(76, 179, 214);
@@ -26,6 +27,7 @@ body {
 }
 .black-btn:hover {
   border: 3px solid rgb(76, 179, 214);
+  transform: scale(1.1);
 }
 .black-btn--active {
   border: 3px solid rgb(76, 179, 214);
@@ -46,6 +48,10 @@ body {
 .buy-btn:hover {
   padding: 0.5rem 4rem;
   background-color: rgb(46, 132, 160);
+}
+
+.round-m {
+  border-radius: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
