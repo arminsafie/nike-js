@@ -104,6 +104,7 @@ const blackNike = {
 // Display data functions
 const displayWhiteData = () => {
   const div = document.createElement("div");
+
   div.innerHTML = `
     <div class="card" style="width: 18rem">
       <img src="${whiteNike.imgUrl}" class="card-img-top" alt="..." />
@@ -130,6 +131,7 @@ const displayWhiteData = () => {
 
 const displayBlackData = () => {
   const div = document.createElement("div");
+
   div.innerHTML = `
     <div class="card" style="width: 18rem">
       <img src="${blackNike.imgUrl}" class="card-img-top" alt="..." />
