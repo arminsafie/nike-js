@@ -1,0 +1,29 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.white-btn {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.black-btn {
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.bg-sami {
+  background-color: #eee;
+}
+
+.buy-btn {
+  border-radius: 6rem;
+  border: none;
+  background-color: rgb(73, 169, 201);
+  color: #fff;
+  padding: 0.5rem 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */
