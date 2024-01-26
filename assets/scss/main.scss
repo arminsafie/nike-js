@@ -4,15 +4,29 @@ body{
 }
 .white-btn{
   background-color: #fff;
+  border: 3px solid transparent;
   padding: 1rem;
   border-radius: 50%;
-
+  transition: all .4s;
+  &:hover{
+    border: 3px solid rgb(76, 179, 214);
+  }
+  &--active{
+    border: 3px solid rgb(76, 179, 214);
+  }
 }
 .black-btn{
   background-color: #000;
+  border: 3px solid transparent;
   padding: 1rem;
   border-radius: 50%;
-
+  transition: all .4s;
+  &:hover{
+    border: 3px solid rgb(76, 179, 214);
+  }
+  &--active{
+    border: 3px solid rgb(76, 179, 214);
+  }
 }
 .bg-sami{
   background-color: #eee;
@@ -23,5 +37,10 @@ body{
   background-color: rgb(73, 169, 201);
   color: #fff;
   padding: .5rem 3rem;
+  transition: all .4s;
+  &:hover{
+    padding: .5rem 4rem;
+    background-color: rgb(46, 132, 160);
+  }
 }
 
