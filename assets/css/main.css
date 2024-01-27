@@ -50,6 +50,10 @@ body {
   background-color: rgb(46, 132, 160);
 }
 
+.cursur-p {
+  cursor: pointer;
+}
+
 .round-m {
   border-radius: 3rem;
 }
